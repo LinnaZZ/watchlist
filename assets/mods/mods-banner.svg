@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Mods-Katalog">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F172A"/><stop offset=".55" stop-color="#1E40AF"/><stop offset="1" stop-color="#0891B2"/></linearGradient></defs>
+<rect width="900" height="200" rx="22" fill="url(#bg)"/>
+<circle cx="820" cy="30" r="90" fill="#fff" opacity=".08"/><circle cx="740" cy="190" r="60" fill="#fff" opacity=".07"/><circle cx="60" cy="190" r="70" fill="#fff" opacity=".05"/>
+<g opacity=".9"><circle cx="640" cy="150" r="9" fill="#2EA44F"/><circle cx="668" cy="150" r="9" fill="#EAB308"/><circle cx="696" cy="150" r="9" fill="#EF4444"/><circle cx="736" cy="150" r="9" fill="#6366F1"/><circle cx="764" cy="150" r="9" fill="#94A3B8"/></g>
+<text x="48" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#fff">🧩 Mods-Katalog</text>
+<text x="50" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#fff" opacity=".92">Geprüfte Mods, Skills &amp; MCP-Server, mit Ampel und Herkunft</text>
+<text x="50" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#fff" opacity=".8">137 Einträge · 14 offiziell · 123 Community · Stand 23.10.2026</text>
+</svg>
