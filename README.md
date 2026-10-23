@@ -2,9 +2,11 @@
 
 # Watchlist
 
+<p align="center"><a href="MODS.md"><img src="assets/mods-button.svg" width="380" alt="🧩 Zu den Mods – Sicherheits-Ampel für Plugins, Skills &amp; Hooks"></a></p>
+
 Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Coding – jeweils mit kurzer Erklärung, offiziellem Link und Einschätzung zu Vertrauen und Sicherheit.
 
-**Stand: 2026-10-23** · 160 Einträge in 17 Kategorien · Plugins/Skills/Hooks mit Sicherheits-Ampel: [MODS.md](MODS.md)
+**Stand: 2026-10-23** · 160 Einträge in 17 Kategorien · 137 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
 
 > [!CAUTION]
 > **Keine Garantie.** Diese Liste ist eine persönliche, sorgfältig recherchierte Sammlung – aber kein Sicherheits-Audit. Projekte ändern sich schnell: **vor jeder Installation selbst prüfen** (Lizenz, Herkunft, Berechtigungen, Telemetrie) und **nichts ungeprüft ausführen**, insbesondere keine `curl | bash`-Installer. Alle Angaben ohne Gewähr.
