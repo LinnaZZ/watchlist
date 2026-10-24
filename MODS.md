@@ -6,7 +6,7 @@
 
 Ergänzung zur [Watchlist](README.md): Plugins, Skills, Hooks, Mods und MCP-Server – jeweils mit **Herkunft** (offiziell oder Community) und **Sicherheits-Ampel**.
 
-**Stand: 2026-10-23** · **137 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 123 × 👥 Community · 19 × 🟢 · 97 × 🟡 · 21 × 🔴
+**Stand: 2026-10-24** · **137 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 123 × 👥 Community · 19 × 🟢 · 97 × 🟡 · 21 × 🔴
 
 > [!CAUTION]
 > Plugins, Skills, Hooks und „Mods“ laufen **mit deinen Rechten** (Claude-Code-Mods laut offizieller Doku ohne Sandbox): Sie können Dateien lesen/schreiben, Befehle starten und Daten senden. Bewertet wurde nur durch Lesen von Code und Doku – **nichts wurde ausgeführt**. Keine Garantie: vor der Installation selbst prüfen, z. B. mit `claude plugin validate ./plugin`, Version pinnen, nichts per `curl | bash` installieren.

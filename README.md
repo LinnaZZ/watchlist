@@ -6,7 +6,7 @@
 
 Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Coding – jeweils mit kurzer Erklärung, offiziellem Link und Einschätzung zu Vertrauen und Sicherheit.
 
-**Stand: 2026-10-23** · 160 Einträge in 17 Kategorien · 137 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
+**Stand: 2026-10-24** · 161 Einträge in 17 Kategorien · 137 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
 
 > [!CAUTION]
 > **Keine Garantie.** Diese Liste ist eine persönliche, sorgfältig recherchierte Sammlung – aber kein Sicherheits-Audit. Projekte ändern sich schnell: **vor jeder Installation selbst prüfen** (Lizenz, Herkunft, Berechtigungen, Telemetrie) und **nichts ungeprüft ausführen**, insbesondere keine `curl | bash`-Installer. Alle Angaben ohne Gewähr.
@@ -18,7 +18,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 | | |
 | :-- | :-- |
-| [**⭐ Frameworks & Bibliotheken**](#frameworks)<br><sub>23 Einträge</sub> | [**🧠 Agent-Skills & Workflows**](#agent-skills)<br><sub>14 Einträge</sub> |
+| [**⭐ Frameworks & Bibliotheken**](#frameworks)<br><sub>24 Einträge</sub> | [**🧠 Agent-Skills & Workflows**](#agent-skills)<br><sub>14 Einträge</sub> |
 | [**🧩 Plugins & Skill-Verzeichnisse**](#plugins)<br><sub>4 Einträge</sub> | [**🎛️ Agent-Orchestrierung & -Ops**](#orchestrierung)<br><sub>8 Einträge</sub> |
 | [**📦 Sandboxing & Isolation**](#sandboxing)<br><sub>8 Einträge</sub> | [**💾 Agent-Memory**](#memory)<br><sub>9 Einträge</sub> |
 | [**🛡️ Agent-Guardrails & Security**](#security)<br><sub>10 Einträge</sub> | [**🔬 Reverse Engineering**](#reverse-engineering)<br><sub>6 Einträge</sub> |
@@ -30,10 +30,10 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 <details><summary>Textliste (für Skripte)</summary>
 
-1. [⭐ Frameworks & Bibliotheken](#frameworks) (23)
+1. [⭐ Frameworks & Bibliotheken](#frameworks) (24)
    - [Animation, Scroll & 3D](#fw-animation) (9)
    - [UI-Komponenten](#fw-ui) (7)
-   - [Weitere Code-Bibliotheken](#fw-code) (7)
+   - [Weitere Code-Bibliotheken](#fw-code) (8)
 2. [🧠 Agent-Skills & Workflows](#agent-skills) (14)
 3. [🧩 Plugins & Skill-Verzeichnisse](#plugins) (4)
 4. [🎛️ Agent-Orchestrierung & -Ops](#orchestrierung) (8)
@@ -53,7 +53,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 </details>
 
-Gesamt: 160 Einträge
+Gesamt: 161 Einträge
 
 > [!TIP]
 > **Legende**  
@@ -113,6 +113,7 @@ Gesamt: 160 Einträge
 
 | Eintrag & Bewertung | Worum geht’s |
 | :-- | :-- |
+| **WL-161**<br>[FFmpeg](https://ffmpeg.org/)<br>![GitHub Stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=flat&label=%E2%98%85&color=555)<br>![recommended](https://img.shields.io/badge/-empfohlen-2ea44f)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`recommended` · `hoch`</sub> | **Wofür:** Video und Audio umwandeln, schneiden, Bilder oder Ton aus Videos ziehen, neu kodieren. Das kostenlose Open-Source-Standardwerkzeug (Programm `ffmpeg` + Bibliotheken libav*) für Video und Audio, seit 2000. Fast jede Video-App nutzt es im Hintergrund, auch mehrere Einträge unserer Mods-Liste: der Video-Schau-Skill claude-video (`/watch`, holt Videos mit yt-dlp und zieht mit FFmpeg Einzelbilder heraus) und die Video-Render-Skills wie HyperFrames (WL-051). Aktuell 9.0.2, GitHub-Spiegel ~65.7k★ (Entwicklung auf git.ffmpeg.org), Push 2026-10-24. **Install (offiziell):** Windows `winget install Gyan.FFmpeg` (Build von gyan.dev, auf ffmpeg.org verlinkt) · macOS `brew install ffmpeg` · Linux `sudo apt install ffmpeg`. Download-Seite: https://ffmpeg.org/download.html. **Lizenz:** LGPL 2.1+; Builds mit GPL-Teilen (z. B. x264, so auch Gyan „full“) stehen unter GPL. Für eigene Nutzung egal, beim Weitergeben in einer App die Lizenzpflichten beachten (https://ffmpeg.org/legal.html). **Haken:** Reines Kommandozeilen-Werkzeug ohne Oberfläche, Claude schreibt die Befehle. Nur aus offiziellen Quellen holen (ffmpeg.org bzw. die dort verlinkten Builds, winget/brew/apt) – keine „ffmpeg“-Downloads von fremden Seiten oder als .exe aus Videos/Foren.<br><sub>🏷️ `ai-models/tooling` · 🗓️ 2026-10-24</sub> |
 | **WL-024**<br>[stryker-mutator/stryker-js](https://github.com/stryker-mutator/stryker-js)<br>![GitHub Stars](https://img.shields.io/github/stars/stryker-mutator/stryker-js?style=flat&label=%E2%98%85&color=555)<br>![candidate](https://img.shields.io/badge/-Kandidat-0969da)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`candidate` · `hoch`</sub> | **Wofür:** Prüfen, ob Tests wirklich Fehler finden (Mutation-Testing). Mutation-Testing für JS/TS: baut gezielt kleine Fehler ein und zeigt, welche Tests sie nicht fangen — prüft, ob von Agents geschriebene Tests wirklich etwas testen. Seit 2016, ~3.2k★, Apache-2.0, Push 2026-10-10.<br><sub>🏷️ `dev-tooling/testing` · 🗓️ 2026-10-15</sub> |
 | **WL-051**<br>[HyperFrames](https://github.com/heygen-com/hyperframes)<br>![GitHub Stars](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat&label=%E2%98%85&color=555)<br>![candidate](https://img.shields.io/badge/-Kandidat-0969da)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br>![Sicherheit rot](https://img.shields.io/badge/Sicherheit-rot-cf222e)<br><sub>`candidate` · `mittel`</sub> | **Wofür:** Videos und Motion Graphics aus HTML-Code rendern. Open-Source-Werkzeug von HeyGen: Claude baut Erklärvideos/Motion Graphics als HTML-Code, HyperFrames rendert sie lokal zu MP4. ~70.5k★, Apache-2.0, Push 2026-10-23. **Haken:** Firma HeyGen (seriös, aber kommerzielles Interesse). Rendern lokal, kein Konto nötig. Platz 1 bei skillselion (514k Installs). Sehr schnelles Wachstum seit 03/2026. Skill-Teil → vor Installation prüfen. **Sicherheitsprüfung 🔴 (vorerst):** Telemetrie standardmäßig an (PostHog), `hyperframes skills update` installiert ungepinnt per `npx … --global --yes`. 🟡 nur mit `HYPERFRAMES_NO_TELEMETRY=1`, nur Plugin, HeyGen bewusst.<br><sub>🏷️ `design-for-agents/video` · 🗓️ 2026-10-23</sub> |
 | **WL-067**<br>[Puppeteer](https://github.com/puppeteer/puppeteer)<br>![GitHub Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=flat&label=%E2%98%85&color=555)<br>![candidate](https://img.shields.io/badge/-Kandidat-0969da)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`candidate` · `hoch`</sub> | **Wofür:** Browser per Code fernsteuern (Testen, Screenshots, PDFs). Steuert Chrome/Firefox per Code: Seiten öffnen, klicken, Screenshots, PDFs. Damit kann Claude deine App im Browser testen. ~95.7k★, Apache-2.0, Push 2026-10-23. **Haken:** Vom Chrome-Team, seit 2017. Lädt beim Installieren einen Chrome (~170 MB).<br><sub>🏷️ `dev-tooling/browser-automation` · 🗓️ 2026-10-23</sub> |
