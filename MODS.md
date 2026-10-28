@@ -6,7 +6,7 @@
 
 Ergänzung zur [Watchlist](README.md): Plugins, Skills, Hooks, Mods und MCP-Server – jeweils mit **Herkunft** (offiziell oder Community) und **Sicherheits-Ampel**.
 
-**Stand: 2026-10-28** · **137 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 123 × 👥 Community · 19 × 🟢 · 97 × 🟡 · 21 × 🔴
+**Stand: 2026-10-28** · **138 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 124 × 👥 Community · 20 × 🟢 · 97 × 🟡 · 21 × 🔴
 
 > [!CAUTION]
 > Plugins, Skills, Hooks und „Mods“ laufen **mit deinen Rechten** (Claude-Code-Mods laut offizieller Doku ohne Sandbox): Sie können Dateien lesen/schreiben, Befehle starten und Daten senden. Bewertet wurde nur durch Lesen von Code und Doku – **nichts wurde ausgeführt**. Keine Garantie: vor der Installation selbst prüfen, z. B. mit `claude plugin validate ./plugin`, Version pinnen, nichts per `curl | bash` installieren.
@@ -18,7 +18,7 @@ Ergänzung zur [Watchlist](README.md): Plugins, Skills, Hooks, Mods und MCP-Serv
 | [**🏛️ Offizielle Mods**](#offiziell)<br><sub>14 Einträge · Übersicht</sub> | [**🛡️ 1. Sicherheit & Kontrolle**](#sicherheit)<br><sub>27 Einträge</sub> |
 | [**💰 2. Kosten & Usage**](#kosten)<br><sub>15 Einträge</sub> | [**🖥️ 3. Anzeige & UI**](#anzeige)<br><sub>20 Einträge</sub> |
 | [**🧠 4. Lernen & Regeln**](#lernen)<br><sub>9 Einträge</sub> | [**🤝 5. Multi-Agent & Fremdmodelle**](#multi-agent)<br><sub>9 Einträge</sub> |
-| [**🎨 6. Frontend & Animation**](#frontend)<br><sub>11 Einträge</sub> | [**🧩 7. Skills: Denken & Recherche**](#skills)<br><sub>13 Einträge</sub> |
+| [**🎨 6. Frontend & Animation**](#frontend)<br><sub>11 Einträge</sub> | [**🧩 7. Skills: Denken & Recherche**](#skills)<br><sub>14 Einträge</sub> |
 | [**🎬 8. MCP & Kreativ-Tools**](#mcp-kreativ)<br><sub>10 Einträge</sub> | [**🗺️ 9. Visualisierung**](#visualisierung)<br><sub>5 Einträge</sub> |
 | [**🔌 10. MCP: SaaS-Anbindungen**](#mcp-saas)<br><sub>3 Einträge</sub> | [**🏛️ 11. Offizielle Anthropic-Skills**](#anthropic-skills)<br><sub>9 Einträge</sub> |
 | [**📦 12. Sammlungen**](#sammlungen)<br><sub>2 Einträge</sub> | [**🔍 13. Prüfwerkzeuge**](#pruefwerkzeuge)<br><sub>2 Einträge</sub> |
@@ -255,6 +255,7 @@ Alle 14 Einträge mit ![🏛️ offiziell](https://img.shields.io/badge/-%F0%9F%
 | [academic-paper-skills](https://github.com/lishix520/academic-paper-skills) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | 2 Skills (strategist, composer) + 4 lokale Python-Skripte | Fachartikel planen und schreiben mit Qualitäts-Checkpoints (v. a. Philosophie) | ![🟡 gelb](https://img.shields.io/badge/-%F0%9F%9F%A1_gelb-bf8700) |
 | [tieline](https://github.com/knoxgraeme/tieline) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Skill + lokaler MCP-Server (npm `tieline` 0.2.2) | Verknüpft Produkt-Absicht (Fähigkeiten, User Stories, Akzeptanzkriterien) mit Code und Tests als Beleg | ![🟡 gelb](https://img.shields.io/badge/-%F0%9F%9F%A1_gelb-bf8700) |
 | [no-ai-slop](https://github.com/petergyang/no-ai-slop) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Skill (Markdown, 97 Zeilen) + Codex-Plugin-Metadaten | Entfernt über 20 typische KI-Schreibmuster aus Texten | ![🟢 grün](https://img.shields.io/badge/-%F0%9F%9F%A2_gr%C3%BCn-2ea44f) |
+| [humanizer](https://github.com/blader/humanizer) (WL-184) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Skill (Markdown, 1 `SKILL.md`, 397 Zeilen) als Claude-Plugin, v3.1.0 | Schreibt KI-klingende Texte natürlicher um (26 Muster nach Wikipedias „Signs of AI writing“), ohne den Inhalt zu ändern. Modi: eingefügter Text, Datei, eingebettet (PR/Commit-Text) | ![🟢 grün](https://img.shields.io/badge/-%F0%9F%9F%A2_gr%C3%BCn-2ea44f) |
 
 <sub>[↑ Inhalt](#-inhalt)</sub>
 
