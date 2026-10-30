@@ -6,7 +6,7 @@
 
 Ergänzung zur [Watchlist](README.md): Plugins, Skills, Hooks, Mods und MCP-Server – jeweils mit **Herkunft** (offiziell oder Community) und **Sicherheits-Ampel**.
 
-**Stand: 2026-10-30** · **138 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 124 × 👥 Community · 20 × 🟢 · 97 × 🟡 · 21 × 🔴
+**Stand: 2026-10-30** · **139 Einträge** in 14 Gruppen · 14 × 🏛️ offiziell · 125 × 👥 Community · 20 × 🟢 · 98 × 🟡 · 21 × 🔴
 
 > [!CAUTION]
 > Plugins, Skills, Hooks und „Mods“ laufen **mit deinen Rechten** (Claude-Code-Mods laut offizieller Doku ohne Sandbox): Sie können Dateien lesen/schreiben, Befehle starten und Daten senden. Bewertet wurde nur durch Lesen von Code und Doku – **nichts wurde ausgeführt**. Keine Garantie: vor der Installation selbst prüfen, z. B. mit `claude plugin validate ./plugin`, Version pinnen, nichts per `curl | bash` installieren.
@@ -17,7 +17,7 @@ Ergänzung zur [Watchlist](README.md): Plugins, Skills, Hooks, Mods und MCP-Serv
 | --- | --- |
 | [**🏛️ Offizielle Mods**](#offiziell)<br><sub>14 Einträge · Übersicht</sub> | [**🛡️ 1. Sicherheit & Kontrolle**](#sicherheit)<br><sub>27 Einträge</sub> |
 | [**💰 2. Kosten & Usage**](#kosten)<br><sub>15 Einträge</sub> | [**🖥️ 3. Anzeige & UI**](#anzeige)<br><sub>20 Einträge</sub> |
-| [**🧠 4. Lernen & Regeln**](#lernen)<br><sub>9 Einträge</sub> | [**🤝 5. Multi-Agent & Fremdmodelle**](#multi-agent)<br><sub>9 Einträge</sub> |
+| [**🧠 4. Lernen & Regeln**](#lernen)<br><sub>9 Einträge</sub> | [**🤝 5. Multi-Agent & Fremdmodelle**](#multi-agent)<br><sub>10 Einträge</sub> |
 | [**🎨 6. Frontend & Animation**](#frontend)<br><sub>11 Einträge</sub> | [**🧩 7. Skills: Denken & Recherche**](#skills)<br><sub>14 Einträge</sub> |
 | [**🎬 8. MCP & Kreativ-Tools**](#mcp-kreativ)<br><sub>10 Einträge</sub> | [**🗺️ 9. Visualisierung**](#visualisierung)<br><sub>5 Einträge</sub> |
 | [**🔌 10. MCP: SaaS-Anbindungen**](#mcp-saas)<br><sub>3 Einträge</sub> | [**🏛️ 11. Offizielle Anthropic-Skills**](#anthropic-skills)<br><sub>9 Einträge</sub> |
@@ -205,6 +205,7 @@ Alle 14 Einträge mit ![🏛️ offiziell](https://img.shields.io/badge/-%F0%9F%
 | [Ruflo](https://github.com/ruvnet/ruflo) (früher Claude Flow, `ruvnet/claude-flow` leitet per 301 auf dieselbe Repo-ID 995029641 um; npm `ruflo` 3.59.17, intern `@claude-flow/cli`) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Agent-Harness: CLI + MCP-Server (README: 314 Tools), Hooks, Daemon, Hive-Mind/Swarm, Plugin-Marktplatz mit über 40 Plugins | Orchestriert viele Agenten (Swarm, Hive-Mind) mit Vektor-Gedächtnis, automatischem Routing und Hintergrund-Workern | ![🔴 rot](https://img.shields.io/badge/-%F0%9F%94%B4_rot-cf222e) (vorerst; Plugin `ruflo-core` mit lokal gepinnter CLI 🟡) |
 | [Shared Sessions](https://github.com/Paradigm-Study/claude-share) (`shared-session`) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Mod (Live-Sitzung teilen) | Teilt eine Sitzung per Link, andere treten aus ihrem Claude Code bei und prompten live mit | ![🔴 rot](https://img.shields.io/badge/-%F0%9F%94%B4_rot-cf222e) (vorerst) |
 | [shunt](https://github.com/pleaseai/shunt) (Mod) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Mod (Band) zu einem LLM-Gateway | Zeigt Restkontingent und Reset-Zeiten des Account-Pools aus dem shunt-Gateway | ![🟡 gelb](https://img.shields.io/badge/-%F0%9F%9F%A1_gelb-bf8700) |
+| [arena-skill](https://github.com/Jakeschincariol/arena-skill) (`/arena`, WL-190), gepinnt auf [`df07b8e`](https://github.com/Jakeschincariol/arena-skill/tree/df07b8e518e10cdecd8cd7712d9958b6f396250e) | ![👥 Community](https://img.shields.io/badge/-%F0%9F%91%A5_Community-6e7781) | Skill (Markdown, 371 Zeilen) + Python-Hilfsskript `bracket.py` (1.235 Zeilen, nur Standardbibliothek) + Plugin-Manifest, v1.0.0 | Verteilt **eine Aufgabe auf N Subagents** (Standard 100, `--quick` 16, technisch bis 2.160) mit je einer anderen Strategie-Karte. Danach folgt ein K.-o.-Turnier: Angriff, Verteidigung, Richter, bis eine Lösung übrig ist | ![🟡 gelb](https://img.shields.io/badge/-%F0%9F%9F%A1_gelb-bf8700) |
 
 <sub>[↑ Inhalt](#-inhalt)</sub>
 
