@@ -6,7 +6,7 @@
 
 Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Coding – jeweils mit kurzer Erklärung, offiziellem Link und Einschätzung zu Vertrauen und Sicherheit.
 
-**Stand: 2026-11-09** · 207 Einträge in 17 Kategorien · 139 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
+**Stand: 2026-11-12** · 208 Einträge in 17 Kategorien · 139 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
 
 > [!CAUTION]
 > **Keine Garantie.** Diese Liste ist eine persönliche, sorgfältig recherchierte Sammlung – aber kein Sicherheits-Audit. Projekte ändern sich schnell: **vor jeder Installation selbst prüfen** (Lizenz, Herkunft, Berechtigungen, Telemetrie) und **nichts ungeprüft ausführen**, insbesondere keine `curl | bash`-Installer. Alle Angaben ohne Gewähr.
@@ -23,7 +23,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 | [**📦 Sandboxing & Isolation**](#sandboxing)<br><sub>10 Einträge</sub> | [**💾 Agent-Memory**](#memory)<br><sub>11 Einträge</sub> |
 | [**🛡️ Agent-Guardrails & Security**](#security)<br><sub>14 Einträge</sub> | [**🔬 Reverse Engineering**](#reverse-engineering)<br><sub>7 Einträge</sub> |
 | [**🎨 Design für Agents & Visualisierung**](#design)<br><sub>16 Einträge</sub> | [**🧪 Dev-Tooling & Testing**](#dev-tooling)<br><sub>17 Einträge</sub> |
-| [**🏗️ App-Builder & Agents**](#app-builder)<br><sub>11 Einträge</sub> | [**🔎 Recherche & LLM-Routing**](#recherche)<br><sub>6 Einträge</sub> |
+| [**🏗️ App-Builder & Agents**](#app-builder)<br><sub>11 Einträge</sub> | [**🔎 Recherche & LLM-Routing**](#recherche)<br><sub>7 Einträge</sub> |
 | [**🤖 KI-Modelle & Medien (Bild/Video/Audio)**](#modelle)<br><sub>17 Einträge</sub> | [**🖥️ Self-Hosting & Betrieb**](#selfhosting)<br><sub>3 Einträge</sub> |
 | [**💼 Self-Hosting: Business-Apps**](#business)<br><sub>8 Einträge</sub> | [**🗓️ Planung & Aufgaben**](#planung)<br><sub>9 Einträge</sub> |
 | [**📚 Lernen & Wissen**](#lernen)<br><sub>5 Einträge</sub> |  |
@@ -44,7 +44,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 9. [🎨 Design für Agents & Visualisierung](#design) (16)
 10. [🧪 Dev-Tooling & Testing](#dev-tooling) (17)
 11. [🏗️ App-Builder & Agents](#app-builder) (11)
-12. [🔎 Recherche & LLM-Routing](#recherche) (6)
+12. [🔎 Recherche & LLM-Routing](#recherche) (7)
 13. [🤖 KI-Modelle & Medien (Bild/Video/Audio)](#modelle) (17)
 14. [🖥️ Self-Hosting & Betrieb](#selfhosting) (3)
 15. [💼 Self-Hosting: Business-Apps](#business) (8)
@@ -53,7 +53,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 </details>
 
-Gesamt: 207 Einträge
+Gesamt: 208 Einträge
 
 > [!TIP]
 > **Legende**  
@@ -385,7 +385,7 @@ Gesamt: 207 Einträge
 
 <img src="assets/cat-recherche.svg" width="100%" alt="Recherche & LLM-Routing">
 
-<details><summary><b>6 Einträge – 2 Kandidat, 4 beobachten</b> – antippen zum Aufklappen</summary>
+<details><summary><b>7 Einträge – 2 Kandidat, 5 beobachten</b> – antippen zum Aufklappen</summary>
 
 | Eintrag & Bewertung | Worum geht’s |
 | :-- | :-- |
@@ -395,6 +395,7 @@ Gesamt: 207 Einträge
 | **WL-016**<br>[ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane)<br>![GitHub Stars](https://img.shields.io/github/stars/ItzCrazyKns/Vane?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Self-hosted Perplexity-Alt.<br><sub>🏷️ `research-engine` · 🗓️ 2026-10-07</sub> |
 | **WL-022**<br>[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)<br>![GitHub Stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen niedrig](https://img.shields.io/badge/Vertrauen-niedrig-cf222e)<br><sub>`watching` · `niedrig`</sub> | CLI, mit der Agents YouTube, Reddit, GitHub, X u. a. (16 Plattformen) ohne API-Gebühren lesen und bei kaputten Scrapern selbst auf ein anderes Werkzeug ausweichen; könnte das yt-dlp-429-Problem umgehen. ~109k★, MIT, aktiv (Push 2026-11-04), aber erst seit 2026-02, Doku chinesisch. TNNT-Short 03.11. (weNV9Vfd56U). **Risiko:** X/Reddit nur über exportierte Login-Cookies (Projekt selbst warnt vor Sperren, empfiehlt Zweitkonten); Install läuft, indem der Agent eine entfernte install.md ausführt. Erst Audit, keine Cookies echter Konten.<br><sub>🏷️ `research-tooling` · 🗓️ 2026-11-05</sub> |
 | **WL-139**<br>[Apify Instagram Scraper](https://apify.com/apify/instagram-scraper)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Fertiger Cloud-„Roboter“ von Apify, der öffentliche Instagram-Posts, Profile, Hashtags und Kommentare als Tabelle ausliest. proprietär (Apify-Actor). **Install:** Über Apify-Konto oder den bereits installierten Apify-Connector/MCP. Offiziell: https://apify.com/apify/instagram-scraper. **Haken:** Kosten pro Ergebnis: 2,70 $/1.000 im Gratis-Plan, 2,30 $ Starter, 1,50 $ erst im Business-Plan. Instagram verbietet automatisches Auslesen in seinen Nutzungsbedingungen; Profile/Kommentare sind personenbezogene Daten (DSGVO: Rechtsgrundlage nötig). Nur für eigene Accounts oder klar begründete Recherche.<br><sub>🏷️ `research-tooling` · 🗓️ 2026-10-23</sub> |
+| **WL-208**<br>[only-cli/oc](https://github.com/only-cli/oc)<br>![GitHub Stars](https://img.shields.io/github/stars/only-cli/oc?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Spart Tokens beim Lesen von Webseiten: `oc open <url>` holt eine Seite und gibt statt rohem HTML eine kurze, nummerierte Übersicht (~500 Tokens) zurück; Claude wählt dann gezielt Abschnitte (`oc read <n>`, `oc do <n>`, `oc find <text>`). Bringt Abkürzungen für rund 40 Seiten mit (z. B. Hacker News, GitHub, Reddit, Wikipedia, MDN, Python-, Rust- und Microsoft-Learn-Doku, npm/PyPI). Laut Kanal-Test ca. 20 % weniger Tokens bei gleicher Genauigkeit; bei Seiten mit `llms.txt` ist Claudes eigenes Web-Werkzeug besser. **Herkunft:** 👥 Community (Einzelentwickler „Mark Cli“, Konto am selben Tag wie das Repo angelegt). ~685★, MIT, seit 08/2026, npm-Version 0.5.8, Push 2026-11-10, OpenSSF-Scorecard vorhanden. Offiziell: https://only-cli.com. **Install (offiziell):** `npm install -g @only-cli/oc` (Node 20+) oder ohne Installation `npx @only-cli/oc`; Skill: `npx skills add https://github.com/only-cli/oc --skill web-browsing-cli`; Plugin: `/plugin marketplace add only-cli/oc`, dann `/plugin install only-cli@only-cli`. **Haken:** Junges Projekt eines anonymen Autors; gibt sich gegenüber Webseiten als Chrome aus, um Bot-Sperren zu umgehen (kann Nutzungsbedingungen mancher Seiten verletzen); `oc login` speichert kopierte Browser-Cookies → keine echten Konto-Cookies hineingeben; Seiteninhalt kann versteckte Anweisungen enthalten (Prompt-Injection, steht auch im README). Befehl `oc` kollidiert mit OpenShift-CLI. Überschneidung mit agent-browser (WL-202) und Agent-Reach (WL-022).<br><sub>🏷️ `research-tooling` · 🗓️ 2026-11-12</sub> |
 
 </details>
 
