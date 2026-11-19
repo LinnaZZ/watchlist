@@ -6,7 +6,7 @@
 
 Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Coding – jeweils mit kurzer Erklärung, offiziellem Link und Einschätzung zu Vertrauen und Sicherheit.
 
-**Stand: 2026-11-16** · 212 Einträge in 17 Kategorien · 139 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
+**Stand: 2026-11-19** · 215 Einträge in 17 Kategorien · 139 Plugins/Skills/Hooks mit Sicherheits-Ampel: [🧩 MODS.md](MODS.md)
 
 > [!CAUTION]
 > **Keine Garantie.** Diese Liste ist eine persönliche, sorgfältig recherchierte Sammlung – aber kein Sicherheits-Audit. Projekte ändern sich schnell: **vor jeder Installation selbst prüfen** (Lizenz, Herkunft, Berechtigungen, Telemetrie) und **nichts ungeprüft ausführen**, insbesondere keine `curl | bash`-Installer. Alle Angaben ohne Gewähr.
@@ -18,11 +18,11 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 | | |
 | :-- | :-- |
-| [**⭐ Frameworks & Bibliotheken**](#frameworks)<br><sub>26 Einträge</sub> | [**🧠 Agent-Skills & Workflows**](#agent-skills)<br><sub>28 Einträge</sub> |
-| [**🧩 Plugins & Skill-Verzeichnisse**](#plugins)<br><sub>7 Einträge</sub> | [**🎛️ Agent-Orchestrierung & -Ops**](#orchestrierung)<br><sub>15 Einträge</sub> |
+| [**⭐ Frameworks & Bibliotheken**](#frameworks)<br><sub>27 Einträge</sub> | [**🧠 Agent-Skills & Workflows**](#agent-skills)<br><sub>28 Einträge</sub> |
+| [**🧩 Plugins & Skill-Verzeichnisse**](#plugins)<br><sub>7 Einträge</sub> | [**🎛️ Agent-Orchestrierung & -Ops**](#orchestrierung)<br><sub>16 Einträge</sub> |
 | [**📦 Sandboxing & Isolation**](#sandboxing)<br><sub>10 Einträge</sub> | [**💾 Agent-Memory**](#memory)<br><sub>11 Einträge</sub> |
 | [**🛡️ Agent-Guardrails & Security**](#security)<br><sub>14 Einträge</sub> | [**🔬 Reverse Engineering**](#reverse-engineering)<br><sub>7 Einträge</sub> |
-| [**🎨 Design für Agents & Visualisierung**](#design)<br><sub>16 Einträge</sub> | [**🧪 Dev-Tooling & Testing**](#dev-tooling)<br><sub>17 Einträge</sub> |
+| [**🎨 Design für Agents & Visualisierung**](#design)<br><sub>16 Einträge</sub> | [**🧪 Dev-Tooling & Testing**](#dev-tooling)<br><sub>18 Einträge</sub> |
 | [**🏗️ App-Builder & Agents**](#app-builder)<br><sub>11 Einträge</sub> | [**🔎 Recherche & LLM-Routing**](#recherche)<br><sub>7 Einträge</sub> |
 | [**🤖 KI-Modelle & Medien (Bild/Video/Audio)**](#modelle)<br><sub>18 Einträge</sub> | [**🖥️ Self-Hosting & Betrieb**](#selfhosting)<br><sub>3 Einträge</sub> |
 | [**💼 Self-Hosting: Business-Apps**](#business)<br><sub>8 Einträge</sub> | [**🗓️ Planung & Aufgaben**](#planung)<br><sub>9 Einträge</sub> |
@@ -30,19 +30,19 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 <details><summary>Textliste (für Skripte)</summary>
 
-1. [⭐ Frameworks & Bibliotheken](#frameworks) (26)
+1. [⭐ Frameworks & Bibliotheken](#frameworks) (27)
    - [Animation, Scroll & 3D](#fw-animation) (9)
    - [UI-Komponenten](#fw-ui) (8)
-   - [Weitere Code-Bibliotheken](#fw-code) (9)
+   - [Weitere Code-Bibliotheken](#fw-code) (10)
 2. [🧠 Agent-Skills & Workflows](#agent-skills) (28)
 3. [🧩 Plugins & Skill-Verzeichnisse](#plugins) (7)
-4. [🎛️ Agent-Orchestrierung & -Ops](#orchestrierung) (15)
+4. [🎛️ Agent-Orchestrierung & -Ops](#orchestrierung) (16)
 5. [📦 Sandboxing & Isolation](#sandboxing) (10)
 6. [💾 Agent-Memory](#memory) (11)
 7. [🛡️ Agent-Guardrails & Security](#security) (14)
 8. [🔬 Reverse Engineering](#reverse-engineering) (7)
 9. [🎨 Design für Agents & Visualisierung](#design) (16)
-10. [🧪 Dev-Tooling & Testing](#dev-tooling) (17)
+10. [🧪 Dev-Tooling & Testing](#dev-tooling) (18)
 11. [🏗️ App-Builder & Agents](#app-builder) (11)
 12. [🔎 Recherche & LLM-Routing](#recherche) (7)
 13. [🤖 KI-Modelle & Medien (Bild/Video/Audio)](#modelle) (18)
@@ -53,7 +53,7 @@ Kuratierte Watchlist: seriöse Tools, Bibliotheken, Skills & Mods fürs KI-Codin
 
 </details>
 
-Gesamt: 212 Einträge
+Gesamt: 215 Einträge
 
 > [!TIP]
 > **Legende**  
@@ -123,6 +123,7 @@ Gesamt: 212 Einträge
 | **WL-063**<br>[AirLLM](https://github.com/lyogavin/airllm)<br>![GitHub Stars](https://img.shields.io/github/stars/lyogavin/airllm?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | **Wofür:** Sehr große KI-Modelle auf kleiner Grafikkarte ausführen. Lässt sehr große KI-Modelle auf kleinen Grafikkarten laufen, indem es sie Stück für Stück lädt. ~40.4k★, Apache-2.0, Push 2026-10-23. **Haken:** Sehr langsam (Schicht für Schicht); Einzelperson; für Claude-Code-Setup nur Nische (lokale Modelle).<br><sub>🏷️ `ai-models/llm-runtime` · 🗓️ 2026-10-23</sub> |
 | **WL-102**<br>[E2B](https://github.com/e2b-dev/E2B)<br>![GitHub Stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`watching` · `hoch`</sub> | **Wofür:** Code per SDK sicher in einer Cloud-Sandbox ausführen. Cloud-Sandboxen: Agent-Code läuft auf E2B-Servern in einer abgeschotteten Mini-VM, inklusive Notebook-Modus für Datenanalyse. ~14.5k★, Apache-2.0, Push 2026-10-23. **Install (offiziell):** `npm i @e2b/code-interpreter (Doku: e2b.dev/docs) – braucht E2B-Konto + API-Key`. Offiziell: https://e2b.dev. **Haken:** Cloud-Dienst mit Konto; Gratis-Kontingent, Produktion kostet Monatsgebühr; Sitzungen max. 24 h. Self-Hosting nur aufwendig (Terraform). Eher für eigene Agent-Apps als für den normalen Claude-Code-Alltag.<br><sub>🏷️ `agent-sandbox/cloud` · 🗓️ 2026-10-23</sub> |
 | **WL-106**<br>[Cloudflare Sandbox SDK](https://github.com/cloudflare/sandbox-sdk)<br>![GitHub Stars](https://img.shields.io/github/stars/cloudflare/sandbox-sdk?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`watching` · `hoch`</sub> | **Wofür:** Sandbox-Container per SDK im Cloudflare-Netz starten. Container direkt im Cloudflare-Netz, in denen Agenten Befehle ausführen können. ~1.2k★, nicht eindeutig (NOASSERTION), Push 2026-10-23. **Install (offiziell):** `npm i @cloudflare/sandbox (braucht Cloudflare-Konto, Workers)`. Offiziell: https://sandbox.cloudflare.com/. **Haken:** Cloud-Dienst, nur für Leute, die schon mit Cloudflare Workers bauen.<br><sub>🏷️ `agent-sandbox/cloud` · 🗓️ 2026-10-23</sub> |
+| **WL-214**<br>[Pi (earendil-works/pi)](https://github.com/earendil-works/pi)<br>![GitHub Stars](https://img.shields.io/github/stars/earendil-works/pi?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen hoch](https://img.shields.io/badge/Vertrauen-hoch-2ea44f)<br><sub>`watching` · `hoch`</sub> | **Wofür:** Baukasten für eigene KI-Agents: eine einheitliche Schnittstelle zu vielen Modell-Anbietern (Anthropic, OpenAI, Google u. a.), eine Agenten-Schleife mit Tool-Aufrufen, eine Terminal-Oberfläche und darauf aufbauend der schlanke Coding-Agent `pi`, den man mit Erweiterungen, Skills und Vorlagen selbst zuschneidet (keine eingebauten Subagents/Plan-Modus – baut man bei Bedarf dazu). Nützlich, wenn man eigene Agenten-Werkzeuge bauen oder einen zweiten, sehr anpassbaren Agenten neben Claude Code haben will. **Herkunft:** 👥 Community (Mario Zechner, heute Firma Earendil; früher `badlogic/pi-mono`). ~123k★, MIT, seit 08/2025, täglich aktiv. Offiziell: https://pi.dev. **Install (offiziell):** `curl -fsSL https://pi.dev/install.sh \| sh` (Windows: `powershell -c "irm https://pi.dev/install.ps1 \| iex"`) oder `npm install -g --ignore-scripts @earendil-works/pi-coding-agent`; Bibliotheken einzeln z. B. `npm install @earendil-works/pi-ai`. **Haken:** kein eingebautes Rechte-System – läuft mit allen Rechten des Nutzers, also in Container/Sandbox betreiben (siehe Sandboxing-Gruppe); Claude-Abo in fremden Agenten nutzen kann gegen Anthropics Bedingungen verstoßen → mit API-Key arbeiten; Issues/PRs neuer Mitwirkender werden automatisch geschlossen.<br><sub>🏷️ `framework/agent` · 🗓️ 2026-11-19</sub> |
 
 <a id="agent-skills"></a>
 ## 🧠 Agent-Skills & Workflows
@@ -188,7 +189,7 @@ Gesamt: 212 Einträge
 
 <img src="assets/cat-orchestrierung.svg" width="100%" alt="Agent-Orchestrierung & -Ops">
 
-<details><summary><b>15 Einträge – 4 Kandidat, 11 beobachten</b> – antippen zum Aufklappen</summary>
+<details><summary><b>16 Einträge – 4 Kandidat, 12 beobachten</b> – antippen zum Aufklappen</summary>
 
 | Eintrag & Bewertung | Worum geht’s |
 | :-- | :-- |
@@ -207,6 +208,7 @@ Gesamt: 212 Einträge
 | **WL-209**<br>[tryatlas/atlas (Atlas)](https://github.com/tryatlas/atlas)<br>![GitHub Stars](https://img.shields.io/github/stars/tryatlas/atlas?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Versionskontrolle für Coding-Agents: Desktop-App, die jede Agenten-Sitzung (Claude Code, Codex, Cursor u. a.) aufzeichnet und jeden Commit mit der Sitzung und dem Prompt verknüpft, der ihn erzeugt hat – so lässt sich ein Fehler bis zum auslösenden Prompt zurückverfolgen. Dazu Verbrauchsübersicht (Tokens, Kosten pro Projekt/Agent/Modell), Notizen-Wissensbasis und gemeinsame Team-Zeitleiste. **Herkunft:** 👥 Community (Org „tryatlas“, Hauptentwickler pacifio, Konto seit 2017). ~9.4k★, Apache-2.0, seit 05/2026, Push 2026-11-16, Release alpha-0.4.1 (03.11.). Offiziell: https://www.tryatlas.cc · Doku https://docs.tryatlas.cc. **Install (offiziell):** Installer (.dmg / .msi / .deb / .rpm / AppImage) von https://github.com/tryatlas/atlas/releases; Sitzungsaufzeichnung pro Projekt einschalten. **Haken:** noch Alpha; anonyme Nutzungsstatistik standardmäßig **an** (laut TELEMETRY.md nur grobe Metadaten, abschaltbar → abschalten); Sitzungen liegen lokal in `.atlas/sessions.db`, Secrets werden vor dem Speichern geschwärzt, Sync nur nach Opt-in; Atlas-eigener Agent braucht Konto. Noch nicht selbst getestet.<br><sub>🏷️ `agent-ops` · 🗓️ 2026-11-16</sub> |
 | **WL-210**<br>[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)<br>![GitHub Stars](https://img.shields.io/github/stars/milind-soni/OpenMausBot?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Chat-App, in der jeder Kontakt ein KI-Agent ist: Jeder Bot läuft über die schon installierten Kommandozeilen-Tools `claude`, `codex` oder `grok` (eigene Logins/Abos, kein Zwischenserver), hat eigenes Modell, eigene Rolle und auf Wunsch einen eigenen Rechner (Cloud-Linux-Desktop, lokale VM oder – nach Opt-in – den eigenen PC). Riskante Schritte (Shell-Befehle, Datei-Änderungen) erscheinen als Karten zum Erlauben/Ablehnen. Ganze Bot-Teams lassen sich aus einer Markdown-Datei installieren. **Herkunft:** 👥 Community (Einzelentwickler Milind Soni, Konto seit 2018). ~23.7k★, Apache-2.0, seit 08/2026, sehr aktiv (Release v0.1.161 am 15.11.). Offiziell: https://www.openmausbot.com. **Install (offiziell):** signierte Installer von https://github.com/milind-soni/OpenMausBot/releases/latest (macOS .dmg, Windows .exe, Ubuntu .deb/AppImage). **Haken:** sehr junges, schnell wachsendes Projekt (v0.1.x); Cloud-Rechner laufen beim Sponsor boat.dev, App-Anbindungen über Composio (Drittanbieter mit Zugriff auf Gmail, Slack, GitHub usw. → nur minimale Rechte); Steuerung des eigenen Rechners nur mit Bedacht. Noch nicht selbst getestet.<br><sub>🏷️ `agent-orchestration` · 🗓️ 2026-11-16</sub> |
 | **WL-212**<br>[alexeyw/lot-map](https://github.com/alexeyw/lot-map)<br>![GitHub Stars](https://img.shields.io/github/stars/alexeyw/lot-map?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Live-Karte neben dem Chat, die zeigt, was Claude Code gerade tut: Jeder Tool-Aufruf, Modellschritt, Hook, Skill und Subagent leuchtet als „Station“ auf (Dateien, Shell, Web, Memory, Agents), statt dass man eine Befehlsliste lesen muss. Gut zum Mitverfolgen langer Sitzungen. **Herkunft:** 👥 Community (Einzelentwickler, Konto seit 2012). ~900★ (am 12.11. noch ~460★), MIT, seit 09.11.2026, Push 2026-11-15. **Install (offiziell):** im Claude-Code-Terminal `/plugin install lot-map --marketplace alexeyw/lot-map` bzw. `claude plugin marketplace add alexeyw/lot-map` und `claude plugin install lot-map@lot-map`. **Haken:** erst eine Woche alt; laut README und PRIVACY.md keine Netzwerkzugriffe, kein Datei-Lesen, keine Prozesse – bekommt als Hook aber jeden Tool-Aufruf komplett zu sehen. Überschneidung mit Context-Timeline-Hook (WL-006) und Atlas (WL-209).<br><sub>🏷️ `agent-ops` · 🗓️ 2026-11-16</sub> |
+| **WL-213**<br>[archid21/rightsize](https://github.com/archid21/rightsize)<br>![GitHub Stars](https://img.shields.io/github/stars/archid21/rightsize?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen niedrig](https://img.shields.io/badge/Vertrauen-niedrig-cf222e)<br><sub>`watching` · `niedrig`</sub> | Claude-Code-Plugin, das jeden Prompt automatisch an das günstigste passende Modell und die passende Denkstufe (Effort) schickt: Routinearbeit geht an einen Haiku-/Sonnet-Helfer, Reviews kurz an Opus, die Denkstufe steigt nur, wenn Claude erkennbar hängt (Fehlschleifen, rote Tests). Achtet außerdem auf Cache- und Kontextkosten und zeigt in `/rightsize report`, was jede Wahl gekostet bzw. gespart hat. Mit „nur beobachten“-Modus zum gefahrlosen Ausprobieren. **Herkunft:** 👥 Community (Einzelentwickler Archi Dubey). ~44★, MIT, seit 23.10.2026, sehr aktiv (v0.16.0, Push 2026-11-19). Offiziell: https://aivalue.blog/rightsize. **Install (offiziell):** `claude plugin marketplace add archid21/rightsize` und `claude plugin install rightsize@archid21 --scope user` (braucht Claude Code 2.1.287+). **Haken:** sehr kleines Projekt mit einem Autor; ein Hook schickt jeden Prompt zur Einstufung an Sonnet (kostet selbst etwas Nutzung, läuft aber über das eigene Login, nichts geht an den Autor); fragt per `gh` nach einem GitHub-Stern; Ersparnis-Zahlen sind Eigenmessungen. Passt zum Ziel „wenig Tokens“.<br><sub>🏷️ `agent-ops/kosten` · 🗓️ 2026-11-19</sub> |
 
 </details>
 
@@ -336,7 +338,7 @@ Gesamt: 212 Einträge
 
 <img src="assets/cat-dev-tooling.svg" width="100%" alt="Dev-Tooling & Testing">
 
-<details><summary><b>17 Einträge – 9 Kandidat, 8 beobachten</b> – antippen zum Aufklappen</summary>
+<details><summary><b>18 Einträge – 9 Kandidat, 9 beobachten</b> – antippen zum Aufklappen</summary>
 
 | Eintrag & Bewertung | Worum geht’s |
 | :-- | :-- |
@@ -357,6 +359,7 @@ Gesamt: 212 Einträge
 | **WL-159**<br>[edonadei/caliper](https://github.com/edonadei/caliper)<br>![GitHub Stars](https://img.shields.io/github/stars/edonadei/caliper?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Misst, ob Skills, MCPs und Regeln wirklich helfen: Der Agent läuft einmal mit und einmal ohne, danach siehst du den Nutzen und die Token-Kosten. ~220★, MIT, Push 2026-10-16. **Haken:** Klein und jung, aber ideal für Sicherheitsbewertungen. Ähnlich: UiPath/coder_eval (aus Reddit).<br><sub>🏷️ `dev-tooling/testing` · 🗓️ 2026-10-23</sub> |
 | **WL-179**<br>[morluto/flameox](https://github.com/morluto/flameox)<br>![GitHub Stars](https://img.shields.io/github/stars/morluto/flameox?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen niedrig](https://img.shields.io/badge/Vertrauen-niedrig-cf222e)<br><sub>`watching` · `niedrig`</sub> | MCP-Server, der Coding-Agents Messdaten zur Laufzeit liefert: startet Profiler, Benchmarks und Trace-Werkzeuge und gibt dem Agent belastbare Zahlen, wo ein Programm langsam ist (Code, native Programme, GPU, KI-Modelle) – statt dass er rät. ~223★, MIT, seit 07/2026, Push 2026-10-26. **Install (offiziell):** `npx flameox@latest setup` (fragt nach, welche Agent-Konfigurationen es ändern darf; `--dry-run` zeigt vorher nur an). **Haken:** Klein und jung; von den Machern von rea (WL-032). Nur nützlich bei echten Performance-Problemen.<br><sub>🏷️ `dev-tooling/testing` · 🗓️ 2026-10-27</sub> |
 | **WL-205**<br>[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)<br>![GitHub Stars](https://img.shields.io/github/stars/vercel-labs/agent-desktop?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen mittel](https://img.shields.io/badge/Vertrauen-mittel-fb8c00)<br><sub>`watching` · `mittel`</sub> | Computer-Steuerung für Agents ohne Screenshots: liest den Bedienungshilfen-Baum (Accessibility) von Desktop-Programmen unter Windows, macOS und Linux als Text, jedes Bedienelement bekommt eine Nummer; Claude klickt oder tippt darauf und prüft danach erneut. Standardmäßig ohne die Maus zu bewegen. Das Gegenstück zu agent-browser (WL-202) für normale Programme. **Herkunft:** 👥 Community (Vercel Labs). ~19.9k★, Apache-2.0, seit 02/2026, Push 2026-11-08. Doku: https://agent-browser.dev/desktop/installation. **Install (offiziell):** `npm install -g agent-desktop`, dann `agent-desktop status` (zeigt Rechte und unterstützte Oberflächen). **Haken:** Hohes Risiko: der Agent kann jedes offene Programm bedienen (Mail, Banking, Chat); Schnappschüsse und Zwischenablage können private Inhalte enthalten → nur in einem Test-Benutzerkonto oder einer VM (z. B. Windows Sandbox, WL-207), nie neben Programmen mit sensiblen Daten.<br><sub>🏷️ `dev-tooling/computer-use` · 🗓️ 2026-11-09</sub> |
+| **WL-215**<br>[erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything)<br>![GitHub Stars](https://img.shields.io/github/stars/erkamyaman/rust-anything?style=flat&label=%E2%98%85&color=555)<br>![watching](https://img.shields.io/badge/-beobachten-bf8700)<br>![Vertrauen niedrig](https://img.shields.io/badge/Vertrauen-niedrig-cf222e)<br><sub>`watching` · `niedrig`</sub> | Hilft dem Coding-Agent, eine App Stück für Stück nach Rust umzuschreiben, ohne dass sie kaputtgeht: zeichnet zuerst das Verhalten des Originals auf (viele Testfälle), erzeugt für jedes Teil ein Rust-Gegenstück mit gleicher Schnittstelle, spielt alle Fälle gegen die Rust-Version ab und lässt erst bei 100 % Übereinstimmung umschalten. Für Node/TypeScript, Python, C, Go, Ruby, Java (PHP/C# Vorschau); auch nur langsame Stellen („Hot Paths“) auslagern geht. Bringt MCP-Server und Skill für Claude Code mit. **Herkunft:** 👥 Community (Einzelentwickler erKam Yaman, Konto seit 2021). ~3.9k★ und ~320 Forks in drei Tagen, MIT, seit 16.11.2026, CI und Pakete auf crates.io/npm. **Install (offiziell):** `cargo install rust-anything` (oder `npm install -g rust-anything` bzw. fertige Binaries aus den Releases), dann `rust-anything setup` (trägt MCP-Server und Skill in Claude Code u. a. ein, legt vorher Sicherungskopien an); als Plugin: `/plugin install rust-anything --marketplace erkamyaman/rust-anything`.<br><sub>🏷️ `dev-tooling/migration` · 🗓️ 2026-11-19</sub> |
 
 </details>
 
